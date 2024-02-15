@@ -1,0 +1,17 @@
+.calculator-form {
+  display: flex;
+}
+.calculator-fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.input-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

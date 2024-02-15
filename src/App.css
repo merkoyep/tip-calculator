@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.Components {
+  margin: 2em;
+  text-align: center;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2em;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +44,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  background-color: #61dafb;
+  margin: 0;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
