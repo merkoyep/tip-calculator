@@ -1,8 +1,5 @@
 .calculator-form {
   display: flex;
-}
-.calculator-fieldset {
-  display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: space-between;
@@ -11,7 +8,8 @@
 
 .input-label {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }

@@ -12,6 +12,7 @@ function App() {
   return (
     <div className='App'>
       <h1>Tip Calculator</h1>
+
       <div className='Components'>
         <Calculator
           bill={bill}
@@ -23,8 +24,11 @@ function App() {
         />
         <Calculation
           bill={bill}
+          setBill={setBill}
           tipPercent={tipPercent}
+          setTipPercent={setTipPercent}
           splitWays={splitWays}
+          setSplitWays={setSplitWays}
         />
       </div>
     </div>
