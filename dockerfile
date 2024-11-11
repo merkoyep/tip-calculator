@@ -1,4 +1,4 @@
-FROM node:18 AS builder
+FROM node:18 AS build
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ FROM nginx:latest
 
 WORKDIR /usr/share/nginx/html
 
-COPY --from=builder /app/dist .
+COPY --from=build /app/build /usr/share/nginx/html
 
 EXPOSE 80
 
